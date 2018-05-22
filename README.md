@@ -1,23 +1,7 @@
-# Bootstrap 4 Starter Pack (BETA 4.0.0)
+Meditation One-page Client Website
 
-Includes complete Bootstrap 4.0.0-beta dev environment with gulp and sass
+Bootstrap 4.0.0 Beta
 
-If you are looking for the alpha6 version [click here](https://github.com/bradtraversy/bs4starter_alpha6)
+Photos from Pixabay and Stencil
 
-### Version
-
-1.0.0
-
-## Install Dependencies
-
-```bash
-npm install 
-```
-
-## Compile Sass & Run Dev Server
-
-```bash
-npm start
-```
-
-Files are compiled into /src
+MIT License 2018.
