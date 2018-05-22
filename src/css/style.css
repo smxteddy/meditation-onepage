@@ -1,0 +1,84 @@
+body {
+  margin-top: 105px; }
+
+#home {
+  position: relative;
+  background: url("../img/meditationbackground.jpg") no-repeat center;
+  background-size: cover; }
+  #home .btn {
+    margin: 40px; }
+
+#benefits-pictures {
+  position: relative;
+  background-color: #553F7A;
+  background-size: cover; }
+  #benefits-pictures .col-md-3 {
+    padding: 0; }
+  #benefits-pictures .hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default; }
+  #benefits-pictures .hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
+  #benefits-pictures .hovereffect:hover .overlay {
+    background-color: rgba(255, 255, 0, 0.4);
+    padding-bottom: 10%; }
+  #benefits-pictures .hovereffect img {
+    display: block;
+    position: relative; }
+  #benefits-pictures .hovereffect p {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    text-transform: uppercase;
+    margin: 50px 0 0 0;
+    background-color: transparent;
+    -webkit-transform: translateY(-200px);
+    -ms-transform: translateY(-200px);
+    transform: translateY(-200px);
+    color: #000;
+    border: 1px solid #000;
+    -webkit-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s; }
+  #benefits-pictures .hovereffect p:hover {
+    box-shadow: 0 0 5px #fff; }
+  #benefits-pictures .hovereffect:hover p {
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+    box-shadow: 0 0 5px #000;
+    color: #000;
+    border: 1px solid #000;
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s; }
+
+#blockquote {
+  position: relative;
+  background: url("../img/skyscraperoverlay.jpg") no-repeat center;
+  background-size: 1500px;
+  padding: 20px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
+  position: relative;
+  overflow: hidden;
+  min-height: 120px; }
+
+#testimonials .carousel-item {
+  position: relative;
+  background-color: #553F7A;
+  background-size: cover; }
+
+#contact {
+  background-color: #F8AA04; }
